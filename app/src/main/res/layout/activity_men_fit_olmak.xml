@@ -20,7 +20,7 @@
         tools:layout_constraintTop_creator="1">
 
         <TextView
-            android:id="@+id/tvBaslangic"
+            android:id="@+id/tvBaslangic";;;;
             android:layout_width="fill_parent"
             android:layout_height="30dp"
             android:layout_alignParentEnd="true"
