@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "65673063067",
+    "firebase_url": "https://fitnessforenergy-be3fb.firebaseio.com",
+    "project_id": "fitnessforenergy-be3fb",
+    "storage_bucket": "fitnessforenergy-be3fb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:65673063067:android:f3eb97c21fd7fccd",
+        "android_client_info": {
+          "package_name": "com.gobletsoft.fitnessforenergy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "65673063067-rulpe9kcl4nih0hdgllqn2f2ecnckram.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.gobletsoft.fitnessforenergy",
+            "certificate_hash": "7c3eee7a02878b2a12ae2df428ddaddeefbc3bd4"
+          }
+        },
+        {
+          "client_id": "65673063067-qu1mh5cshon4uiaskhlur0a0dlbd8la2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAoJsjJhMqkGX9WasX-LbtCJf2xD23iwHE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "65673063067-qu1mh5cshon4uiaskhlur0a0dlbd8la2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

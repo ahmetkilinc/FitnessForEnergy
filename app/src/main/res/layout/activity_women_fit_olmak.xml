@@ -6,13 +6,149 @@
     android:layout_height="match_parent"
     tools:context="com.gobletsoft.fitnessforenergy.WomenFitOlmak">
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
         android:background="@android:color/holo_blue_bright"
-        android:text="Kadınlar için fit olma ..."
-        tools:layout_editor_absoluteX="-21dp"
-        tools:layout_editor_absoluteY="-2dp" />
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/tvBaslangic"
+            android:layout_width="fill_parent"
+            android:layout_height="30dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="10dp"
+            android:background="@android:color/holo_green_light"
+            android:text="Başlangıç:"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="fill_parent"
+            android:layout_height="35dp"
+            android:layout_below="@+id/tvBaslangic"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:background="@android:color/holo_blue_dark"
+            android:text="5 Dakika Isınma Hareketleri: hafif koşu, ellerin ve bacakların ısınması"
+            android:textAlignment="viewStart"
+            tools:ignore="RtlHardcoded" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="fill_parent"
+            android:layout_height="30dp"
+            android:layout_below="@+id/textView7"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:background="@android:color/holo_green_light"
+            android:text="İdman:"
+            android:textAlignment="center"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/btnSinav"
+            android:layout_width="fill_parent"
+            android:layout_height="35dp"
+            android:layout_below="@+id/textView8"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="10dp"
+            android:background="@android:color/holo_blue_dark"
+            android:text="3 * 15  Squat"
+            tools:ignore="RtlHardcoded" />
+
+        <Button
+            android:id="@+id/btnBarfiks"
+            android:layout_width="fill_parent"
+            android:layout_height="35dp"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/btnSinav"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="10dp"
+            android:background="@android:color/holo_blue_dark"
+            android:text="3 * 10 Easy Push Up [knees on the floor]" />
+
+        <Button
+            android:id="@+id/btnPushUp"
+            android:layout_width="fill_parent"
+            android:layout_height="35dp"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/btnBarfiks"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="10dp"
+            android:background="@android:color/holo_blue_dark"
+            android:text="3 * 15 Crunch" />
+
+        <Button
+            android:id="@+id/btnChinUp"
+            android:layout_width="fill_parent"
+            android:layout_height="35dp"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/btnPushUp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="10dp"
+            android:background="@android:color/holo_blue_dark"
+            android:text="3 * 15 Leg Extansion" />
+
+        <Button
+            android:id="@+id/btnDiamondPush"
+            android:layout_width="fill_parent"
+            android:layout_height="35dp"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/btnChinUp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="10dp"
+            android:background="@android:color/holo_blue_dark"
+            android:text="3 * 10 Dips" />
+
+        <Button
+            android:id="@+id/btnSquat"
+            android:layout_width="fill_parent"
+            android:layout_height="35dp"
+            android:layout_below="@+id/btnDiamondPush"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="10dp"
+            android:background="@android:color/holo_blue_dark"
+            android:text="3 * 10 Lunge" />
+
+        <Button
+            android:id="@+id/btnLegRaise"
+            android:layout_width="fill_parent"
+            android:layout_height="35dp"
+            android:layout_below="@+id/btnSquat"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="10dp"
+            android:background="@android:color/holo_blue_dark"
+            android:text="3 * 10 Plank Side Raise" />
+
+        <Button
+            android:id="@+id/btnBilgi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btnLegRaise"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="11dp"
+            android:background="@android:drawable/ic_dialog_info"
+            android:text="Bilgi" />
+    </RelativeLayout>
 
 </android.support.constraint.ConstraintLayout>

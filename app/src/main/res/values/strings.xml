@@ -1,3 +1,7 @@
 <resources>
+
     <string name="app_name">Fitness For Energy</string>
+    <string name="adSize">BANNER</string>
+    <string name="banner_ad_unit_id">ca-app-pub-0063127843759701/5024821233</string>
+
 </resources>

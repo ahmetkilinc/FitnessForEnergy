@@ -7,11 +7,17 @@
     tools:context="com.gobletsoft.fitnessforenergy.menFitOlmak">
 
     <RelativeLayout
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
         android:background="@android:color/holo_blue_bright"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="0dp">
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_constraintBottom_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintTop_creator="1">
 
         <TextView
             android:id="@+id/tvBaslangic"
@@ -32,11 +38,11 @@
             android:layout_height="35dp"
             android:layout_below="@+id/tvBaslangic"
             android:layout_centerHorizontal="true"
-            android:layout_marginLeft="50dp"
             android:layout_marginTop="10dp"
             android:background="@android:color/holo_blue_dark"
             android:text="5 Dakika Isınma Hareketleri: hafif koşu, ellerin ve bacakların ısınması"
-            android:textAlignment="viewStart" />
+            android:textAlignment="viewStart"
+            tools:ignore="RtlHardcoded" />
 
         <TextView
             android:id="@+id/textView8"
@@ -59,7 +65,8 @@
             android:layout_marginLeft="50dp"
             android:layout_marginTop="10dp"
             android:background="@android:color/holo_blue_dark"
-            android:text="3 * 15 Şınav" />
+            android:text="3 * 10 Incline Push Up"
+            tools:ignore="RtlHardcoded" />
 
         <Button
             android:id="@+id/btnBarfiks"
@@ -71,7 +78,7 @@
             android:layout_marginRight="25dp"
             android:layout_marginTop="10dp"
             android:background="@android:color/holo_blue_dark"
-            android:text="3 * 8 Barfiks" />
+            android:text="3 * 8 Pull Up" />
 
         <Button
             android:id="@+id/btnPushUp"
@@ -83,7 +90,7 @@
             android:layout_marginRight="25dp"
             android:layout_marginTop="10dp"
             android:background="@android:color/holo_blue_dark"
-            android:text="3 * 10 pike push up" />
+            android:text="3 * 15 Push Up with Rotation" />
 
         <Button
             android:id="@+id/btnChinUp"
@@ -107,7 +114,7 @@
             android:layout_marginRight="25dp"
             android:layout_marginTop="10dp"
             android:background="@android:color/holo_blue_dark"
-            android:text="3 * 10 diamond push up" />
+            android:text="3 * 10 Dips" />
 
         <Button
             android:id="@+id/btnSquat"
@@ -119,7 +126,7 @@
             android:layout_marginRight="25dp"
             android:layout_marginTop="10dp"
             android:background="@android:color/holo_blue_dark"
-            android:text="3 * 15 squat" />
+            android:text="3 * 15 Squat" />
 
         <Button
             android:id="@+id/btnLegRaise"
@@ -131,7 +138,7 @@
             android:layout_marginRight="25dp"
             android:layout_marginTop="10dp"
             android:background="@android:color/holo_blue_dark"
-            android:text="3 * 10 leg raise" />
+            android:text="3 * 10 Leg Raise" />
 
         <Button
             android:id="@+id/btnBilgi"
