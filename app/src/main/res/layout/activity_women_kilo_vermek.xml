@@ -27,7 +27,7 @@
             android:layout_alignParentStart="true"
             android:layout_marginTop="10dp"
             android:background="@android:color/holo_green_light"
-            android:text="Başlangıç:"
+            android:text="@string/tvWarmup"
             android:textAlignment="center"
             android:textAllCaps="false"
             android:textSize="18sp" />
@@ -36,11 +36,11 @@
             android:id="@+id/textView7"
             android:layout_width="match_parent"
             android:layout_height="35dp"
+            android:layout_alignParentStart="true"
             android:layout_below="@+id/tvBaslangic"
-            android:layout_centerHorizontal="true"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="11dp"
             android:background="@android:color/holo_blue_dark"
-            android:text="5 Dakika Isınma Hareketleri: hafif koşu, ellerin ve bacakların ısınması"
+            android:text="@string/tvWarmupExercise"
             android:textAlignment="viewStart"
             tools:ignore="RtlHardcoded" />
 
@@ -52,7 +52,7 @@
             android:layout_centerHorizontal="true"
             android:layout_marginTop="10dp"
             android:background="@android:color/holo_green_light"
-            android:text="İdman:"
+            android:text="@string/training"
             android:textAlignment="center"
             android:textSize="18sp" />
 
@@ -148,7 +148,7 @@
             android:layout_centerHorizontal="true"
             android:layout_marginTop="11dp"
             android:background="@android:drawable/ic_dialog_info"
-            android:text="Bilgi" />
+            android:text="@string/manfitinfo" />
     </RelativeLayout>
 
 </android.support.constraint.ConstraintLayout>

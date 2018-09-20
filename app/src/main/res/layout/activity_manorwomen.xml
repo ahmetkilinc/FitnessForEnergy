@@ -32,7 +32,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight=".5"
                 android:background="@android:color/holo_green_light"
-                android:text="Kadın"
+                android:text="@string/manorwomanWoman"
                 tools:layout_editor_absoluteX="0dp"
                 tools:layout_editor_absoluteY="0dp" />
 
@@ -43,7 +43,7 @@
                 android:layout_weight=".5"
                 android:autoText="false"
                 android:background="@android:color/holo_blue_dark"
-                android:text="Erkek"
+                android:text="@string/manorwomanMan"
                 tools:layout_editor_absoluteX="0dp"
                 tools:layout_editor_absoluteY="0dp" />
 
@@ -65,13 +65,6 @@
             android:foregroundGravity="bottom"
             android:gravity="bottom">
 
-            <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
-                android:id="@+id/adview"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignParentBottom="true"
-                ads:adSize="SMART_BANNER"
-                ads:adUnitId="@string/banner_ad_unit_id" />
         </TableRow>
 
     </TableLayout>

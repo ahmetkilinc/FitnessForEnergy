@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Fitness For Energy</string>
+    <string name="manorwomanWoman">Kadın</string>
+    <string name="manorwomanMan">Erkek</string>
+    <string name="manwomanfit">Fit Olmak İstiyorum</string>
+    <string name="manwomanloseweight">Fit Olmak İstiyorum</string>
+    <string name="tvWarmupExercise">5 Dakika Isınma Hareketleri: hafif koşu, ellerin ve bacakların ısınması</string>
+    <string name="tvWarmup">Başlangıç</string>
+    <string name="training">Antreman:</string>
+    <string name="manfitinfo">Bilgi</string>
+    <string name="manfitinformation">Bu idmanla temel hareketlerle vücuda gerekli yüklemeyi vermesi ve her bölgenin maximum düzeyde çalıştırılması hedeflenmiştir. Birer gün arayla haftada 3 idman yapılması maximum verimi almanızı sağlayacaktır. Eğer yaparken zorlanmıyorsanız set sayısını 4’e çıkarabilirsiniz.</string>
+    <string name="manloseweightinformation">"Bu idmanda kalp atışını yükseltmeyi ve hareketler arası dinlenme vermeden kalori yakımını hızlandırılması hedeflenmiştir. Vücudun her bölgesi çalıştırılarak düzgün bir zayıflama ve sıkılaşma olması hedeflenmiştir. "</string>
+    <string name="womanfitinformation">Bu idmanda kalp atışını yükseltmeyi ve formda olan vücudu şekillendirmek için gerekli yükleme yapılması hedeflenmiştir. Kalça ve karın kaslarına yoğunlaşarak bu bölgelerde sıkılaşma hedeflenmiştir. Dengeli bir gelişim üst vücut hareketleri de eklenmiştir.</string>
+    <string name="womanloseweight">Bu idmanla temel hareketlerle vücuda gerekli yüklemeyi vermesi ve her bölgenin maximum düzeyde çalıştırılması hedeflenmiştir. Birer gün arayla haftada 3 idman yapılması maximum verimi almanızı sağlayacaktır. Eğer yaparken zorlanmıyorsanız set sayısını 4’e çıkarabilirsiniz.</string>
+</resources>

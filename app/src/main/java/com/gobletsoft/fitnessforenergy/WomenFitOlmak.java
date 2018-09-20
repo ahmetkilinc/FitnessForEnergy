@@ -225,7 +225,7 @@ public class WomenFitOlmak extends SwipeBackActivity {
 
                 for (int i = 0; i <= 1; i++) {
 
-                    Toast.makeText(getApplicationContext(), "Bu idmanda kalp atışını yükseltmeyi ve formda olan vücudu şekillendirmek için gerekli yükleme yapılması hedeflenmiştir. Kalça ve karın kaslarına yoğunlaşarak bu bölgelerde sıkılaşma hedeflenmiştir. Dengeli bir gelişim üst vücut hareketleri de eklenmiştir.", Toast.LENGTH_LONG).show();
+                    Toast.makeText(getApplicationContext(), R.string.womanfitinformation, Toast.LENGTH_LONG).show();
                 }
             }
         });
