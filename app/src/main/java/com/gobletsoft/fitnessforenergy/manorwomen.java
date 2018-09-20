@@ -8,15 +8,9 @@ import android.view.Window;
 import android.view.WindowManager;
 import android.widget.Button;
 
-import com.google.android.gms.ads.AdRequest;
-import com.google.android.gms.ads.AdSize;
-import com.google.android.gms.ads.AdView;
-
 public class manorwomen extends AppCompatActivity {
 
     private static final String TAG = "manorwomen";
-
-    private AdView mAdView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,10 +22,6 @@ public class manorwomen extends AppCompatActivity {
                 WindowManager.LayoutParams.FLAG_FULLSCREEN);
 
         setContentView(R.layout.activity_manorwomen);
-
-        mAdView = (AdView) findViewById(R.id.adview);
-        AdRequest adRequest = new AdRequest.Builder().build();
-        mAdView.loadAd(adRequest);
 
         Button btnErkek = (Button) findViewById(R.id.btnErkek);
         Button btnKadin = (Button) findViewById(R.id.btnKadin);

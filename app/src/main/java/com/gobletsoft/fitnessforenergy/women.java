@@ -9,19 +9,12 @@ import android.view.Window;
 import android.view.WindowManager;
 import android.widget.Button;
 
-import com.google.android.gms.ads.AdRequest;
-import com.google.android.gms.ads.AdView;
-import com.google.android.gms.ads.InterstitialAd;
 import com.liuguangqiang.swipeback.SwipeBackActivity;
 import com.liuguangqiang.swipeback.SwipeBackLayout;
 
 public class women extends SwipeBackActivity {
 
     private static final String TAG = "women";
-
-    private AdView mAdView;
-
-    private InterstitialAd mInterstitialAd;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,15 +27,6 @@ public class women extends SwipeBackActivity {
         setContentView(R.layout.activity_women);
         setDragEdge(SwipeBackLayout.DragEdge.LEFT);
 
-
-        mInterstitialAd = new InterstitialAd(this);
-        mInterstitialAd.setAdUnitId("ca-app-pub-0063127843759701/8243857423");
-        mInterstitialAd.loadAd(new AdRequest.Builder().build());
-
-        mAdView = (AdView) findViewById(R.id.adview);
-        AdRequest adRequest = new AdRequest.Builder().build();
-        mAdView.loadAd(adRequest);
-
         Button btnKKilovermek = (Button) findViewById(R.id.btnKKilovermek);
         Button btnKFitOlmak = (Button) findViewById(R.id.btnKFitOlmak);
 
@@ -52,14 +36,6 @@ public class women extends SwipeBackActivity {
 
                 Intent intent = new Intent(women.this, womenKiloVermek.class);
                 startActivity(intent);
-
-                if (mInterstitialAd.isLoaded()) {
-
-                    mInterstitialAd.show();
-                } else {
-
-                    Log.d("TAG", "The interstitial wasn't loaded yet.");
-                }
             }
         });
 
@@ -70,13 +46,6 @@ public class women extends SwipeBackActivity {
                 Intent intent = new Intent(women.this, WomenFitOlmak.class);
                 startActivity(intent);
 
-                if (mInterstitialAd.isLoaded()) {
-
-                    mInterstitialAd.show();
-                } else {
-
-                    Log.d("TAG", "The interstitial wasn't loaded yet.");
-                }
             }
         });
     }

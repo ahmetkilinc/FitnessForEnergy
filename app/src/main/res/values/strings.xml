@@ -1,7 +1,25 @@
 <resources>
 
     <string name="app_name">Fitness For Energy</string>
-    <string name="adSize">BANNER</string>
-    <string name="banner_ad_unit_id">ca-app-pub-0063127843759701/5024821233</string>
-
+    <string name="adSize" translatable="false">BANNER</string>
+    <string name="banner_ad_unit_id" translatable="false">ca-app-pub-0063127843759701/5024821233</string>
+    <string name="manorwomanWoman">Woman</string>
+    <string name="manorwomanMan">Man</string>
+    <string name="manwomanfit">Fit Body</string>
+    <string name="manwomanloseweight">Lose Weight</string>
+    <string name="tvWarmup">Warm Up</string>
+    <string name="tvWarmupExercise">Five minutes warming movements: jogging and stretching</string>
+    <string name="training">Training:</string>
+    <string name="fitpushup" translatable="false">3 * 10 Incline Push Up</string>
+    <string name="fitpullup" translatable="false">3 * 8 Pull Up</string>
+    <string name="fitpushupwithrotation" translatable="false">3 * 15 Push Up with Rotation</string>
+    <string name="fitchinup" translatable="false">3 * 8 chin up</string>
+    <string name="fitdips" translatable="false">3 * 10 Dips</string>
+    <string name="fitsquat" translatable="false">3 * 15 Squat</string>
+    <string name="fitlegraise" translatable="false">3 * 10 Leg Raise</string>
+    <string name="manfitinfo">Info</string>
+    <string name="manfitinformation">With this exercise, it is aimed to give the necessary loading to the body with basic movements and to operate each area at maximum level. If you work 3 days a week, you will get maximum efficiency. If you do not have difficulty in doing so, you can increase the set number to 4.</string>
+    <string name="manloseweightinformation">The goal is to increase heart rate and accelerate calorie burning without resting between movements. Each zone of the body is intended to be operated and to be properly losing weight and tightening.</string>
+    <string name="womanfitinformation">The aim of this exercise is to increase the heart rate and to perform the necessary loading to shape the body in form. By concentrating on the hip and abdominal muscles, tightening is aimed at these areas. Balanced development has also been added to upper body movements.</string>
+    <string name="womanloseweight">With this exercise, it is aimed to give the necessary loading to the body with basic movements and to operate each area at maximum level. If you work 3 days a week, you will get maximum efficiency. If you do not have difficulty in doing so, you can increase the set number to 4.</string>
 </resources>

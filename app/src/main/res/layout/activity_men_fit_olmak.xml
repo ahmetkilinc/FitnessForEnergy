@@ -20,14 +20,14 @@
         tools:layout_constraintTop_creator="1">
 
         <TextView
-            android:id="@+id/tvBaslangic";;;;
+            android:id="@+id/tvBaslangic"
             android:layout_width="fill_parent"
             android:layout_height="30dp"
             android:layout_alignParentEnd="true"
             android:layout_alignParentStart="true"
             android:layout_marginTop="10dp"
             android:background="@android:color/holo_green_light"
-            android:text="Başlangıç:"
+            android:text="@string/tvWarmup"
             android:textAlignment="center"
             android:textAllCaps="false"
             android:textSize="18sp" />
@@ -40,7 +40,7 @@
             android:layout_centerHorizontal="true"
             android:layout_marginTop="10dp"
             android:background="@android:color/holo_blue_dark"
-            android:text="5 Dakika Isınma Hareketleri: hafif koşu, ellerin ve bacakların ısınması"
+            android:text="@string/tvWarmupExercise"
             android:textAlignment="viewStart"
             tools:ignore="RtlHardcoded" />
 
@@ -52,7 +52,7 @@
             android:layout_centerHorizontal="true"
             android:layout_marginTop="10dp"
             android:background="@android:color/holo_green_light"
-            android:text="İdman:"
+            android:text="@string/training"
             android:textAlignment="center"
             android:textSize="18sp" />
 
@@ -65,7 +65,7 @@
             android:layout_marginLeft="50dp"
             android:layout_marginTop="10dp"
             android:background="@android:color/holo_blue_dark"
-            android:text="3 * 10 Incline Push Up"
+            android:text="@string/fitpushup"
             tools:ignore="RtlHardcoded" />
 
         <Button
@@ -78,7 +78,7 @@
             android:layout_marginRight="25dp"
             android:layout_marginTop="10dp"
             android:background="@android:color/holo_blue_dark"
-            android:text="3 * 8 Pull Up" />
+            android:text="@string/fitpullup" />
 
         <Button
             android:id="@+id/btnPushUp"
@@ -90,7 +90,7 @@
             android:layout_marginRight="25dp"
             android:layout_marginTop="10dp"
             android:background="@android:color/holo_blue_dark"
-            android:text="3 * 15 Push Up with Rotation" />
+            android:text="@string/fitpushupwithrotation" />
 
         <Button
             android:id="@+id/btnChinUp"
@@ -102,7 +102,7 @@
             android:layout_marginRight="25dp"
             android:layout_marginTop="10dp"
             android:background="@android:color/holo_blue_dark"
-            android:text="3 * 8 chin up" />
+            android:text="@string/fitchinup" />
 
         <Button
             android:id="@+id/btnDiamondPush"
@@ -114,7 +114,7 @@
             android:layout_marginRight="25dp"
             android:layout_marginTop="10dp"
             android:background="@android:color/holo_blue_dark"
-            android:text="3 * 10 Dips" />
+            android:text="@string/fitdips" />
 
         <Button
             android:id="@+id/btnSquat"
@@ -126,7 +126,7 @@
             android:layout_marginRight="25dp"
             android:layout_marginTop="10dp"
             android:background="@android:color/holo_blue_dark"
-            android:text="3 * 15 Squat" />
+            android:text="@string/fitsquat" />
 
         <Button
             android:id="@+id/btnLegRaise"
@@ -138,7 +138,7 @@
             android:layout_marginRight="25dp"
             android:layout_marginTop="10dp"
             android:background="@android:color/holo_blue_dark"
-            android:text="3 * 10 Leg Raise" />
+            android:text="@string/fitlegraise" />
 
         <Button
             android:id="@+id/btnBilgi"
@@ -148,6 +148,6 @@
             android:layout_centerHorizontal="true"
             android:layout_marginTop="11dp"
             android:background="@android:drawable/ic_dialog_info"
-            android:text="Bilgi" />
+            android:text="@string/manfitinfo" />
     </RelativeLayout>
 </android.support.constraint.ConstraintLayout>

@@ -56,7 +56,8 @@ public class menKiloVermek extends SwipeBackActivity {
                     public void onClick(View v){
                         // TODO Auto-generated method stub
                         popupWindow.dismiss();
-                    }});
+                    }
+                });
 
                 popupWindow.showAsDropDown(btnPlankSideRaise, 50, 50);
             }
@@ -225,7 +226,7 @@ public class menKiloVermek extends SwipeBackActivity {
 
                 for (int i = 0; i <= 1; i++) {
 
-                    Toast.makeText(getApplicationContext(), " Bu idmanda kalp atışını yükseltmeyi ve hareketler arası dinlenme vermeden kalori yakımını hızlandırılması hedeflenmiştir. Vücudun her bölgesi çalıştırılarak düzgün bir zayıflama ve sıkılaşma olması hedeflenmiştir. ", Toast.LENGTH_LONG).show();
+                    Toast.makeText(getApplicationContext(), R.string.manloseweightinformation, Toast.LENGTH_LONG).show();
                 }
             }
         });

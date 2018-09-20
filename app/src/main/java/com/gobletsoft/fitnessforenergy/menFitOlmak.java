@@ -226,10 +226,7 @@ public class menFitOlmak extends SwipeBackActivity {
 
                 for (int i = 0; i <= 1; i++) {
 
-                    Toast.makeText(getApplicationContext(), "Bu idmanla temel hareketlerle vücuda gerekli yüklemeyi vermesi ve her bölgenin maximum düzeyde\n" +
-                            "çalıştırılması hedeflenmiştir.\n" +
-                            "Birer gün arayla haftada 3 idman yapılması maximum verimi almanızı sağlayacaktır. Eğer yaparken\n" +
-                            "zorlanmıyorsanız set sayısını 4’e çıkarabilirsiniz.", Toast.LENGTH_LONG).show();
+                    Toast.makeText(getApplicationContext(), R.string.manfitinformation, Toast.LENGTH_LONG).show();
             }
             }
         });
